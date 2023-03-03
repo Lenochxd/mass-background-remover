@@ -2,7 +2,7 @@
 
 This Python program uses the ClipDrop API to remove the background from multiple images at once. Simply place the images you want to process in the "input" folder, run the program, and the processed images will be saved to the "output" folder.
 
-To use the ClipDrop API, you will need to obtain an API key from the [ClipDrop website](https://clipdrop.co/apis/account), and place it in a file named "YOUR_API_KEY.txt" in the same directory as the program.
+To use the ClipDrop API, you will need to obtain an API key from the [ClipDrop website](https://clipdrop.co/apis/account), and place it in the file named "YOUR_API_KEY.txt" in the same directory as the program.
 
 ## Requirements
 
