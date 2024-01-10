@@ -6,7 +6,9 @@ dir_list = os.listdir(f'{path}\\input')
 
 for image in dir_list:
     print('.', image)
-
+    
+    if not os.path.isdir(f'{path}\\output'):
+        os.mkdir('output')
     if os.path.isfile(f'{path}\\output\\{image}'):
         print(f'ERROR: {image} File already exists.')
     elif image != 'PUT_YOUR_IMAGES_HERE':
