@@ -1,5 +1,6 @@
 import os
 
+
 root = os.getcwd()
 
 print('1: rembg module')
