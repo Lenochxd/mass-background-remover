@@ -62,10 +62,7 @@ def main():
             else:
                 rembg(image)
         else:
-            try:
-                os.remove(f'{root}\\input\\{image}')
-            except Exception:
-                pass
+            os.remove(f'{root}\\input\\{image}')
 
 if __name__ == '__main__':
     main()
